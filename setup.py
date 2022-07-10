@@ -17,7 +17,8 @@ REQUIRED_PACKAGES = [
     'scikit-learn',
     'pandas',
     'matplotlib',
-    'deepctr'
+    # 因为通过依赖安装 deepctr 有问题。这里需要注释掉
+    # 'deepctr'
 ]
 
 
